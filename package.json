@@ -1,0 +1,16 @@
+{
+  "name": "aternos-keepalive-bots",
+  "version": "1.0.0",
+  "description": "Two Mineflayer bots (admin + player) to keep an Aternos server online",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mineflayer": "^4.23.0"
+  }
+}
